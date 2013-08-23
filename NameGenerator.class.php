@@ -1,3 +1,5 @@
+<?php
+
 class NameGenerator {
 
   private $_glue;
@@ -17,3 +19,5 @@ class NameGenerator {
   }
 
 }
+
+?>
