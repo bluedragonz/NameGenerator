@@ -20,4 +20,7 @@ class NameGenerator {
 
 }
 
+$obj = new NameGenerator();
+echo $obj->next();
+
 ?>
