@@ -10,6 +10,10 @@ class NameGenerator {
     $this->_last = array("Moore", "Martin", "Jackson", "Thompson", "White", "Young", "Hall");
     $this->_glue = $glue;
   }
+  
+  function __destruct() {
+       print "\nDone\n";
+  }
 
   public function next() {
     $first = $this->_first[array_rand($this->_first)];
