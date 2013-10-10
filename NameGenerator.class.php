@@ -16,7 +16,6 @@ class NameGenerator {
   }
   
   function __destruct() {
-       print "\nDone\n";
   }
 
   public function next() {
