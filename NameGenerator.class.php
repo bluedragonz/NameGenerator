@@ -7,10 +7,12 @@ class NameGenerator {
   public function __construct($glue = ' ') {
 
     $this->_first = array("Sarah", "Aaliyah", "Anna", "Arianna", "Ellie", "Steven", "Mary",
-    "Merlin", "Martha", "Stewart", "Claire", "Shannon", "Michelle", "Chad");
+    "Merlin", "Martha", "Stewart", "Claire", "Shannon", "Michelle", "Chad", "Betty", "Heather",
+    "Leona", "Mallory,", "David", "Larry", "Richard", "Damion", "Brandon", "Carl", "Amanda");
     
     $this->_last = array("Moore", "Martin", "Jackson", "Thompson", "White", "Young", "Hall",
-    "Gallagher", "Way", "Fortini", "Giovani", "Fay", "Morgan", "Simpson");
+    "Gallagher", "Way", "Fortini", "Giovani", "Fay", "Morgan", "Simpson", "Rutledge", "Stark",
+    "Herring", "Fields", "Tyson", "Wagner", "Rivera", "Chambers", "Cash", "Hogan", "Weeks");
     
     $this->_glue = $glue;
   }
